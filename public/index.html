@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" href="https://ipfs.io/ipfs/QmPEJx9Bur2NNDPtBNT5zQ6bBnCkgYtKeNBAWRXx4j5hf2/css/bootstrap.min.css">
+  <style>
+
+    canvas{
+      width:100%;
+      height:100%;
+    }
+    .input-group{
+      position: fixed;
+      bottom: 0;
+    }
+
+  </style>
+</head>
+<body>
+  <canvas id="canvas"></canvas>
+  <form id="form">
+    <div class="input-group">
+      <input type="text" id="input" class="form-control">
+      <span class="input-group-btn">
+        <input class="btn btn-default" disabled id="submit" type="submit">Go!</input>
+      </span>
+    </div>
+  </form>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
